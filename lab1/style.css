@@ -1,0 +1,47 @@
+body {
+    background-color: #333333!important;
+}
+
+.paddingLeftAndRight {
+    padding-left: 12.5% !important;
+    padding-right: 12.5% !important
+}
+
+nav a:hover {
+    background-color: #CCCCCC;
+}
+
+.navbar-brand {
+    color: red!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    border-color: rgb(100, 100, 100)!important;
+    border-width: 2px!important;
+}
+
+.mainContainer {
+    background-color: red;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contentContainer {
+    margin-top: 5rem;
+    display: inline-flex;
+    width: 75%;
+}
+
+.textContainer {
+    width: 100%;
+    height: auto;
+    color: pink;
+}
+
+.paddingTopLeft {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
