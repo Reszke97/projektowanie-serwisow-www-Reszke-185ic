@@ -11,6 +11,10 @@ nav a:hover {
     background-color: #CCCCCC;
 }
 
+nav {
+    background-color: white!important;
+}
+
 .navbar-brand {
     color: red!important;
     padding-top: 2px!important;
@@ -44,4 +48,12 @@ nav a:hover {
 .paddingTopLeft {
     padding-top: 5px!important;
     padding-bottom: 5px!important;
+}
+
+.navbar-toggler-icon {
+    outline: none !important;
+}
+
+.nav-link {
+    text-align: left!important;
 }
