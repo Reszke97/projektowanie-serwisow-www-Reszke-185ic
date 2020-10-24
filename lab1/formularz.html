@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
 </head>
 
-<body class="bgBlue">
+<body class="bgBeige">
     <div class="mainContainer" align="center">
         <nav class="navbar fixed-top navbar-expand-md navbar-light  paddingLeftAndRight py-3">
             <a class="navbar-brand m-0 text-secondary" href="#">Reszke</a>
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto  mt-lg-0 justify-content-end w-100">
                     <li class="nav-item active">
-                        <a class="nav-link text-warning paddingTopLeft" href="#">Home</a>
+                        <a class="nav-link text-secondary paddingTopLeft" href="index.html">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link text-secondary paddingTopLeft" href="List.html">List</a>
@@ -34,23 +34,38 @@
                         <a class="nav-link text-secondary paddingTopLeft" href="Strona.html">Strona</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-secondary pr-0 paddingTopLeft" href="formularz.html" tabindex="-1" aria-disabled="true">Formularz</a>
+                        <a class="nav-link text-warning pr-0 paddingTopLeft" href="#" tabindex="-1" aria-disabled="true">Formularz</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="backgroundDiv">
-            <img class="backgroundImage" src="Tlo.jpg">
-        </div>
-        <div class="contentContainer">
-            <div class="textContainer">
-                <h1 class="opisHeader">O mnie</h1>
-                <span class="spanText">Nazywam się Marcin i jestem studentem 3 roku informatyki lubię poznawać nowe technologię oraz pogłębiać swoją wiedzę z dziedziny informatyki. <br>  </span>
-                <hr class="break">
-                <h2 class="marginHeader opisHeader">Użyte technologię do stworzenia strony:</h2>
-                <script src="main.js"></script>
+        <form class="form-horizontal formularz" action="index.html">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
             </div>
-        </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="remember"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group ">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </div>
+        </form>
+
     </div>
     <footer class="foot">
         <h3 class="googleParagraph">Author: Marcin Reszke</h3>
