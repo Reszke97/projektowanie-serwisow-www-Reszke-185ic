@@ -22,7 +22,7 @@
 ## Strona Główna
 ![Strona Główna](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab1/ZrzutyStrony/home.PNG)
 
-Jako menu Główne wykorzystałem **bootstrapa** do stworzenia fixed top nav-bar oraz zmodyfikowałem go w wersjach na niższych rozdzielczościach aby po kliknięciu na guzik zmienił się kolor. 
+Jako menu Główne wykorzystałem **bootstrapa** do stworzenia fixed top nav-bar oraz zmodyfikowałem go na niższych rozdzielczościach aby po kliknięciu na guzik zmienił się kolor. 
 Do stworzenia **tła** użyłem zdjęcia po czym zedytowałem zdjęcie w gimpie dodając napis.
 Pod tłem stworzyłem nowy blok przeznaczony na **content** opakowany w kolejny blok zawierający 2 nagłówki oraz dodałem 4 bloki span ze zdjęciami posługując się **java Scriptem**(do stworzenia bloków służy plik **main.js**).
 Na koniec dodałem stopkę z informacją o autorze oraz linkami do użytych zasobów.
