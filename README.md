@@ -1,27 +1,31 @@
 # projektowanie-serwisow-www-Reszke-185ic
-W folderze **lab1** znajdują sie pliki ze zrobionym pierwszym zadaniem.
+- W folderze **lab1** znajdują sie pliki ze zrobionym pierwszym zadaniem.
 
-W podfolderze **lab1** znajduje się folder **ZrzutyStrony** ze zrzutami ze strony.
+- W podfolderze **lab1** znajduje się folder **ZrzutyStrony** ze zrzutami ze strony.
 
-Plik **style.css** odpowiada za stylowanie wszystkich elementów na stronie jest podzielony na każdą z podstron.
+- Plik **style.css** odpowiada za stylowanie wszystkich elementów na stronie jest podzielony na każdą z podstron.
 
-Plik **main.js** zawiera skrypt tworzący nowe bloki na stronie głównej.
+- Plik **main.js** zawiera skrypt tworzący nowe bloki na stronie głównej.
 
-Plik **function.js** zawiera skrypt z funkcją.
+- Plik **function.js** zawiera skrypt z funkcją.
 
-Plik **Formularz.html** zawiera stronę z formularzem.
+- Plik **Formularz.html** zawiera stronę z formularzem.
 
-Plik **index.html** zawiera stronę główną.
+- Plik **index.html** zawiera stronę główną.
 
-Plik **Strona.html** zawiera stronę z podręcznika(link do zasobów strony w stopce na podstronie Strona)
+- Plik **Strona.html** zawiera stronę z podręcznika(link do zasobów strony w stopce na podstronie Strona)
 
-Plik **List.html** zawiera stronę z listem.
+- Plik **List.html** zawiera stronę z listem.
 
-Pliki tło i fizyka to użyte zdjęcia przy tworzeniu stron.
+- Pliki **tło** i **fizyka** to użyte zdjęcia przy tworzeniu stron.
 
+## Strona Główna
 ![Strona Główna](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab1/ZrzutyStrony/home.PNG)
 
-Jako menu Główne wykorzystałem bootstrapa do stworzenia fixed top nav-bar. 
+Jako menu Główne wykorzystałem bootstrapa do stworzenia fixed top nav-bar oraz zmodyfikowałem go w wersjach na niższych rozdzielczościach aby po kliknięciu na guzik zmienił się kolor. 
 Do stworzenia tła użyłem zdjęcia po czym zedytowałem zdjęcie w gimpie dodając napis.
 Pod tłem stworzyłem nowy blok zawierający 2 nagłówki oraz dodałem 4 bloki span ze zdjęciami posługując się java Scriptem(do stworzenia bloków służy plik **main.js**).
 Na koniec dodałem stopkę z informacją o autorze oraz linkami do użytych zasobów.
+
+## Formularz
+![Formularz](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab1/ZrzutyStrony/formularz.PNG)
