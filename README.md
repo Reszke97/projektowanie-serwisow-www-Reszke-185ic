@@ -21,7 +21,7 @@
 - Pliki **tło** i **fizyka** to użyte zdjęcia przy tworzeniu stron.
 
 
-## W folderze **lab2** znajdują sie pliki ze zrobionym pierwszym zadaniem oraz osobny plik **readme.md**.
+## W folderze **lab2** znajdują sie pliki ze zrobionym drugim zadaniem oraz osobny plik **readme.md**.
 
 - W podfolderze **lab2** znajduje się folder **ZrzutyStrony** ze zrzutami ze strony.
 
