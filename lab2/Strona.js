@@ -1,3 +1,4 @@
+"use strict";
 var divText = document.querySelector(".stronaText");
 
 /*nowy button do chowania p1*/
@@ -141,6 +142,7 @@ var kalkulatorDiv = document.createElement('div');
 
 /*dodanie inputa do diva przeznaczonego na kalkultator*/
 kalkulatorDiv.appendChild(numInput);
+
 
 kalkulatorDiv.setAttribute('class', 'kalkulator');
 kalkulatorDiv.style.setProperty('width', '50%');
