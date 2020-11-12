@@ -103,7 +103,7 @@ newDiv2.appendChild(buttonDeleteText);
 
 /*usuniecie ostatniego paragrafu*/
 buttonDeleteText.onclick = function() {
-    lengths = document.querySelectorAll('.stronaText p').length;
+    var lengths = document.querySelectorAll('.stronaText p').length;
     if (lengths > 4) {
         document.querySelectorAll('.stronaText p')[(document.querySelectorAll('.stronaText p').length) - 1].remove();
     }
@@ -240,3 +240,45 @@ divKalkulatorLista.appendChild(newDiv2);
 
 /*dodanie diva dla kalkulatora i textArea do dokumentu*/
 divText.appendChild(divKalkulatorLista);
+
+
+
+/*nacisniecie guzika*/
+document.querySelector(".kalkulator").addEventListener("keypress",
+    function() {
+        alert("Do obsługi kalkulatora używaj myszki");
+    }
+);
+
+/*double click event*/
+document.querySelector(".zdjecieFizyka").addEventListener('dblclick',
+    function(event) {
+        if (!event.target.matches('img')) return;
+        window.location = "fizyka.jfif";
+    }
+);
+
+/*click event*/
+document.querySelector(".zdjecieFizyka").addEventListener('click',
+    function(event) {
+        if (!event.target.matches('img')) {
+            return;
+        } else {
+            if (document.querySelector(".w366").style.maxWidth <= "366px") {
+                document.querySelector(".w366").style.maxWidth = "600px";
+            } else {
+                document.querySelector(".w366").style.maxWidth = "366px";
+            }
+        }
+    }
+);
+
+
+/*dodanie eventu copy dla calej podstrony */
+document.addEventListener('copy',
+    (event) => {
+        const selection = document.getSelection(); //Zwraca obiekt zaznaczenia reprezentujący zakres tekstu zaznaczonego przez użytkownika.
+        event.clipboardData.setData('text/plain', selection.toString().toUpperCase()); //przechowanie danych następnie ich modyfikacja we wklejnym miejscu
+        event.preventDefault();
+    }
+);

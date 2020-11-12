@@ -38,3 +38,29 @@ divClick.onclick = function() {
         }
     }
 }
+
+//stworzenie textArea a w nim event mouse move, który zapisuje wspolrzedne myszki do textArea
+var coordinates = document.createElement("textarea");
+coordinates.style.setProperty("width", "350px");
+coordinates.style.setProperty("display", "block");
+document.querySelector(".list").appendChild(coordinates);
+
+/*dodanie event handlera*/
+document.querySelector(".list").addEventListener('mousemove', test);
+
+var removeEvent = document.createElement("button");
+removeEvent.setAttribute("class", "btn btn-warning");
+removeEvent.innerText = "usun listener";
+document.querySelector(".list").appendChild(removeEvent);
+
+/*funckja usuwająca event Listener*/
+removeEvent.onclick = function() {
+    document.querySelector(".list").removeEventListener('mousemove', test);
+}
+
+/*stworzenie event handlera przyjmuje Event e*/
+function test(e) {
+    var x = e.pageX;
+    var y = e.pageY;
+    document.querySelector(".list textarea").value = 'Współrzędna X = ' + x + '   Współrzędna Y = ' + y;
+}
