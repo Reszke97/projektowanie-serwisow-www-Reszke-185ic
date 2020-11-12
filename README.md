@@ -47,6 +47,6 @@
 
 - Pliki **tło** i **fizyka** to użyte zdjęcia przy tworzeniu stron.
 
-## W folderze **lab3** znajdują sie pliki ze zrobionym drugim zadaniem oraz osobny plik **readme.md**.
+## W folderze **lab3** znajdują sie pliki z rozwiązanymi laboratoriami nr 3 oraz osobny plik **readme.md**.
 
 - do folderu **lab3** został dodany plik **zadania.js**, w którym znajdują się rozwiązane **zadania część 1**
