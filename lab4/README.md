@@ -16,17 +16,17 @@
 
 ### Gra po załadowaniu strony
 Czas od razu zaczyna się odliczać. Snake zacznie się poruszać dopiero gdy naciśnimey jedną z 4 strzałek na klawiaturze
-[](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s6.PNG)
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s6.PNG)
 
 ### Gra chwile po zdobyciu kilku owoców:
-[](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s2.PNG)
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s2.PNG)
 
 ### Komunikat o przegranej gdy wyjdziemy poza granice grid Boxów:
-[](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s3.PNG)
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s3.PNG)
 Do strony został dodany **click** i **doubleclick** oraz **keypress** oraz **copy** a po kliknięciu pojednyczym na zdjęcie zmieni się rozmiar zdjęcia.
 
 ### Po kliknięciu ok zostanie utworzona nowa gra
-[](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s4.PNG)
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s4.PNG)
 
 ### Komunikat o przegranej gdy natrafimy na pole w którym znajduję się ciało naszego Snake'a
-[](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s7.PNG)
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s7.PNG)
