@@ -54,7 +54,6 @@ export function expandSnake(amount) {
     newSnakeParts += amount;
     score++;
     document.querySelector('.wynik').innerHTML = score;
-    console.info(score);
 }
 
 //jesli nie zostanie wywolana funkcja snakeIntersection to ignoreHead = false i przekazany jest pusty obiekt
@@ -69,8 +68,9 @@ export function onSnake(position, { ignoreHead = false } = {}) {
     )
 }
 
+/*sprawdzenie czy pozycje są na ktorej się znajduje nasz snake jest taka sama jaka wskazana 2 pozycja*/
 function equalPositions(position1, position2) {
-    return position1.x === position2.x && position1.y === position2.y;
+    return (position1.x == position2.x && position1.y == position2.y);
 }
 
 function addSnakeParts() {
@@ -90,6 +90,7 @@ export function getSnakeHead() {
     return (snakeBody[0]);
 }
 
+/*sprawdzenie czy nasz snake nie naszedł na siebie*/
 export function snakeIntersection() {
     return onSnake(snakeBody[0], { ignoreHead: true });
 }
