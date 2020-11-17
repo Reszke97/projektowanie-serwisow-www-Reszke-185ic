@@ -50,3 +50,20 @@
 ## W folderze **lab3** znajdują sie pliki ze zrobionym drugim zadaniem oraz osobny plik **readme.md**.
 
 - do folderu **lab3** został dodany plik **zadania.js**, w którym znajdują się rozwiązane **zadania część 1**
+
+## W folderze **lab4** znajdują sie pliki ze zrobionym 4 zadaniem oraz osobny plik **readme.md**.
+
+### do folderu **lab4** zostały dodane następujące pliki:
+
+- gra.html
+
+- game.js
+
+- snake.js
+
+- input.js
+
+- grid.js
+
+- food.js
+

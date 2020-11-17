@@ -1,18 +1,18 @@
-# Zrzut ekranu funckcji do peirwszych zadań:
-[](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab3/ZrzutyStrony/1.3.PNG)
+# Została utworzona gra Snake. Ponieważ skrypt w dokumencie jest typu **"module"** strona musi być lokalnie zahostowana. Do zahostowania lokalnie strony użyłem visual studio code Live Server.
 
-# Zastosowane event listener'y:
+# Gra została podzielona na kilka skryptów, które korzystają nawzajem ze swoich zasobów:
 
-- focus
-- blur
-- wheel
-- mousemove
-- mouseover
-- mouseout
-- keypress
-- doubleclick
-- click
-- copy
+## W pliku game.js znajdują sie wszystkie potrzebne funkcje do uruchomienia gry
+
+## W pliku snake.js znajduję się cała logika dla węża i związane z tym zachowania
+
+## W pliku food.js znajduję się cała logika dla jedzenia czyli obiketu docelowego w grze Snake
+
+## W pliku input.js znajduję się cała logika związana z naciśnięciem guzika na klawiaturze
+
+## W pliku grid.js znajduję się logika generująca losowe miejsca dla jedzenia oraz sprawdzeniu czy Snake wyszedł poza kratkę
+
+### Gra po załadowaniu strony
 
 ## Strona Główna
 [](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab3/ZrzutyStrony/2.3.png)
