@@ -23,7 +23,6 @@ Czas od razu zaczyna się odliczać. Snake zacznie się poruszać dopiero gdy na
 
 ### Komunikat o przegranej gdy wyjdziemy poza granice grid Boxów:
 ![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s3.PNG)
-Do strony został dodany **click** i **doubleclick** oraz **keypress** oraz **copy** a po kliknięciu pojednyczym na zdjęcie zmieni się rozmiar zdjęcia.
 
 ### Po kliknięciu ok zostanie utworzona nowa gra
 ![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab4/ZrzutyStrony/s4.PNG)
