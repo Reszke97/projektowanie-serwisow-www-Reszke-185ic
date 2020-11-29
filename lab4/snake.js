@@ -1,8 +1,8 @@
 import { getInputDirection } from './input.js';
 export const SNAKE_SPEED = 6; //ustalenie ile razy w ciągu jednej sekundy poruszy się nasz snake
-var snakeBody = [{ x: 11, y: 11 }]; //zadeklarowanie tablicy ze snake'iem na srodku diva (11 kratka)
-var newSnakeParts = 0;
-var score = 0;
+export var snakeBody = [{ x: 11, y: 11 }]; //zadeklarowanie tablicy ze snake'iem na srodku diva (11 kratka)
+export var newSnakeParts = 0;
+export var score = 0;
 
 export function update() {
     addSnakeParts();

@@ -263,15 +263,15 @@ td {
 
 .gameContainer {
     width: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: 0;
 }
 
 .snakeBoard {
-    height: 730px;
     width: 730px;
+    height: 730px;
     border: solid;
     border-color: white;
     display: grid;
@@ -299,24 +299,24 @@ td {
 }
 
 .dot {
-    height: 11px;
-    width: 11px;
+    height: 14px;
+    width: 14px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
 }
 
 .listaGry {
-    margin-top: 7.5rem;
+    /*margin-top: 7.5rem;*/
     margin-left: auto;
     margin-right: auto;
-    width: 6em;
+    width: 243.3px;
     padding: 0!important;
     float: left;
     text-decoration: none;
     list-style-type: none;
     padding: 0!important;
-    text-align: left;
+    text-align: center;
     margin-bottom: 0.2rem!important;
 }
 
@@ -336,10 +336,84 @@ td {
     border: solid;
 }
 
+.tablicaWynikow {
+    /*margin-top: 7.5rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - (730px + 3rem));
+    min-width: 400px;
+    padding: 0!important;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0!important;
+    text-align: center;
+    margin-bottom: 0.2rem!important;
+    margin-left: 3rem;
+}
+
+.tablicaWynikow .tytul2 {
+    padding-right: 1rem;
+    padding-top: 12px;
+    color: #DEB887!important;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.tablicaWynikow .wynik2 {
+    padding-right: 1rem;
+    color: white!important;
+    font-family: 'Luckiest Guy', cursive;
+}
+
 ul {
     display: inline-block;
 }
 
 .divWyniki {
     width: 730px;
+}
+
+
+/*scoreboard*/
+
+.divScoreText {
+    width: calc(100% - (730px + 3rem));
+    min-width: 400px;
+    height: 500px;
+    margin-left: 3rem;
+    color: white;
+}
+
+.scoreTable {
+    width: 100%;
+    border: solid;
+    border-color: #cccccc;
+    text-align: center;
+}
+
+.centerTable {
+    display: flex;
+    justify-content: center;
+}
+
+.scoreTable th,
+td {
+    width: 33.3%;
+    border: solid;
+    border-color: white;
+    border-left: none;
+}
+
+.marginAfterNavbar {
+    margin-top: 7.5rem;
+}
+
+.playerInput {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    font-family: 'Luckiest Guy', cursive!important;
+    color: white!important;
+    text-align: center;
 }
