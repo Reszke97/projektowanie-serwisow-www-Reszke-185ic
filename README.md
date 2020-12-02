@@ -67,3 +67,12 @@
 
 - food.js
 
+## W folderze **lab5** znajdują sie pliki ze zrobionym 5 zadaniem oraz osobny plik **readme.md**.
+
+### do folderu **lab5** zostały dodane następujące pliki:
+
+- mojObiektJSON.json
+
+- asynchronousJS.js
+
+- asynchronousJSFunctions.js
