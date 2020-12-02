@@ -1,18 +1,10 @@
-# Została utworzona gra Snake. Ponieważ skrypt w dokumencie jest typu **"module"** strona musi być lokalnie zahostowana. Do zahostowania lokalnie strony użyłem visual studio code Live Server.
+# Do wykonania laboratoriów utworzyłem 2 nowe skrypty aby kod był czytelniejszy. skrypt **asynchronousJSFunctions** to skrypt w którym są funkcje do pod zadań nr 1 i 2 a skrypy **asynchronousJS** korzysta z tych funkcji. Dodatkowo utowrzyłem plik **mojObiektJSON** w którym znajduję się mój obiek JSON. W kodzie znajdują się komentarze gdzie zaczyna się dane zadanie. Dla lepszej przejrzystości podaje zrzuty kodu poniżej:
 
-# W skryptach znajdują się komentarze
+## Wszystkie funkcje potrzebne do wykonania zadań:
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab5/ZrzutyStrony/funkcje.PNG)
 
-# Gra została podzielona na kilka skryptów, które korzystają nawzajem ze swoich zasobów:
-
-## W pliku game.js znajdują sie wszystkie potrzebne funkcje do uruchomienia gry
-
-## W pliku snake.js znajduję się cała logika dla węża i związane z tym zachowania
-
-## W pliku food.js znajduję się cała logika dla jedzenia czyli obiketu docelowego w grze Snake
-
-## W pliku input.js znajduję się cała logika związana z naciśnięciem guzika na klawiaturze
-
-## W pliku grid.js znajduję się logika generująca losowe miejsca dla jedzenia oraz sprawdzeniu czy Snake wyszedł poza kratkę
+## Konsola ze wszystkimi przykładami:
+![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab5/ZrzutyStrony/konsola.PNG)
 
 ### Gra po załadowaniu strony
 Czas od razu zaczyna się odliczać. Snake zacznie się poruszać dopiero gdy naciśnimey jedną z 4 strzałek na klawiaturze
