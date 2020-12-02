@@ -1,0 +1,32 @@
+{
+    "imie": "Marcin",
+    "nazwisko": "Reszke",
+    "wiek": 23,
+    "stanCywilny": "kawaler",
+    "zawod": {
+        "informatyk": {
+            "specjalnosc": "programowanie",
+            "liczbaGodzinPracyWMiesiacu": "200",
+            "wynagrodzenie": {
+                "netto": "10tys. PLN",
+                "brutto": "14,350tys. PLN"
+            }
+        }
+    },
+    "pojazd": {
+        "samochod": {
+            "prywatny": {
+                "marka": "Dodge",
+                "model": "Viper",
+                "rokWyprodukowania": "2000",
+                "wartosc samochodu": "300tys. PLN"
+            },
+            "sluzbowy": {
+                "marka": "Chevrolet",
+                "model": "Camaro V",
+                "rokWyprodukowania": "2010",
+                "wartoscSamochodu": "75tys. PLN"
+            }
+        }
+    }
+}

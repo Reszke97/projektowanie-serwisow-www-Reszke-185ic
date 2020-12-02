@@ -1,0 +1,419 @@
+.bgBlue {
+    background-color: #001a66!important;
+}
+
+.bgBlack {
+    background-color: black!important;
+}
+
+.paddingLeftAndRight {
+    padding-left: 12.5% !important;
+    padding-right: 12.5% !important
+}
+
+nav ul a:hover {
+    background-color: #F0F8FF!important;
+}
+
+nav {
+    background-color: white!important;
+    font-family: 'Ultra', serif;
+}
+
+.navbar-brand {
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    border-color: rgb(100, 100, 100)!important;
+    border-width: 2px!important;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contentContainer {
+    padding-top: 1rem;
+    display: inline-flex;
+    width: 75%;
+}
+
+.spanText {
+    font-size: 1.9rem;
+    font-family: monospace;
+    line-height: 1.3;
+}
+
+.textContainer {
+    padding-bottom: 1.5em;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+span img {
+    vertical-align: text-top;
+}
+
+.marginHeader {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+.break {
+    border: none;
+}
+
+.backgroundDiv {
+    padding-top: 4.2rem;
+    width: 100%;
+    height: auto;
+    color: red;
+}
+
+.backgroundImage {
+    width: 100%;
+}
+
+.paddingTopLeft {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.navbar-toggler-icon {
+    outline: none !important;
+}
+
+.nav-link {
+    text-align: left!important;
+}
+
+.foot {
+    background-color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.foot a {
+    padding-right: 20px;
+}
+
+.googleParagraph {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100%;
+    margin-bottom: 0.4em;
+    color: #323232;
+}
+
+.footerSpan {
+    margin-bottom: 200px;
+}
+
+.opisHeader {
+    color: #DEB887!important;
+    font-weight: 700
+}
+
+@media(max-width: 767px) {
+    .navbar-collapse.collapse.show ul:first-child {
+        border-top: 1px solid #aaa;
+        margin-top: 1em;
+        padding: none!important;
+        width: 200%!important;
+        margin-left: -25%!important;
+        padding-left: 25%!important;
+        padding-right: 75%!important;
+    }
+}
+
+
+/*Css do Strony*/
+
+.stronaContent {
+    width: 50%;
+    display: inline-flex;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.stronaText {
+    color: #ffffff!important;
+    width: 100%;
+    text-align: left;
+    font-family: -webkit-body;
+    padding-top: 2rem;
+}
+
+.tabelaSpan {
+    text-decoration: underline;
+    color: #DEB887!important;
+}
+
+.stronaHeader {
+    color: #DEB887!important;
+    font-weight: 650
+}
+
+.tabelka {
+    width: 100%;
+    border: solid;
+    border-color: #cccccc;
+}
+
+.tabelka td {
+    border: solid;
+}
+
+.tabelka th {
+    border-width: 5px;
+    border: 4px solid;
+    border-color: silver;
+}
+
+.stopkaTabeli {
+    padding-right: 1em;
+}
+
+.zdjecieFizyka {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.w366 {
+    width: 100%;
+    max-width: 366px;
+}
+
+th,
+td {
+    width: 50%;
+}
+
+
+/*Css do Formularza*/
+
+.formularz {
+    background-color: beige!important;
+    padding-top: 4.8rem!important;
+}
+
+.bgBeige {
+    background-color: beige!important;
+}
+
+
+/*Css do listu*/
+
+.listTextDiv {
+    display: inline-flex;
+    padding-top: 4.5rem;
+    width: 75%;
+}
+
+.nadawca {
+    color: white;
+    width: 50%;
+    text-align: left;
+}
+
+.miejscowosc {
+    color: white;
+    width: 50%;
+    text-align: right;
+}
+
+.boldParagraph {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.odbiorca {
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+
+.listContent {
+    color: white;
+    width: 75%;
+    text-align: left;
+}
+
+.list {
+    width: 50%;
+    min-width: 720px;
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+}
+
+.footList {
+    min-width: 720px;
+}
+
+
+/*Snake*/
+
+.gameContainer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.snakeBoard {
+    width: 730px;
+    height: 730px;
+    border: solid;
+    border-color: white;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.overflowX {
+    overflow-x: hidden
+}
+
+.snake {
+    background-color: green;
+    border: solid black;
+}
+
+.snakeHead {
+    background-color: gray;
+    border: solid black;
+}
+
+.food {
+    background-color: orange;
+    border: solid black;
+}
+
+.dot {
+    height: 14px;
+    width: 14px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.listaGry {
+    /*margin-top: 7.5rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 243.3px;
+    padding: 0!important;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0!important;
+    text-align: center;
+    margin-bottom: 0.2rem!important;
+}
+
+.listaGry .tytul {
+    padding-right: 1rem;
+    color: #DEB887!important;
+    font-family: 'Luckiest Guy', cursive;
+    border: solid;
+    border-color: white;
+    border-bottom: none;
+}
+
+.listaGry .wynik {
+    padding-right: 1rem;
+    color: white!important;
+    font-family: 'Luckiest Guy', cursive;
+    border: solid;
+}
+
+.tablicaWynikow {
+    /*margin-top: 7.5rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - (730px + 3rem));
+    min-width: 400px;
+    padding: 0!important;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0!important;
+    text-align: center;
+    margin-bottom: 0.2rem!important;
+    margin-left: 3rem;
+}
+
+.tablicaWynikow .tytul2 {
+    padding-right: 1rem;
+    padding-top: 12px;
+    color: #DEB887!important;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.tablicaWynikow .wynik2 {
+    padding-right: 1rem;
+    color: white!important;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+ul {
+    display: inline-block;
+}
+
+.divWyniki {
+    width: 730px;
+}
+
+
+/*scoreboard*/
+
+.divScoreText {
+    width: calc(100% - (730px + 3rem));
+    min-width: 400px;
+    height: 500px;
+    margin-left: 3rem;
+    color: white;
+}
+
+.scoreTable {
+    width: 100%;
+    border: solid;
+    border-color: #cccccc;
+    text-align: center;
+}
+
+.centerTable {
+    display: flex;
+    justify-content: center;
+}
+
+.scoreTable th,
+td {
+    width: 33.3%;
+    border: solid;
+    border-color: white;
+    border-left: none;
+}
+
+.marginAfterNavbar {
+    margin-top: 7.5rem;
+}
+
+.playerInput {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    font-family: 'Luckiest Guy', cursive!important;
+    color: white!important;
+    text-align: center;
+}
