@@ -79,5 +79,5 @@
 
 - asynchronousJS.html
 
-## W folderze **lab6** znajdują się pliki ze zrobionym 5 zadaniem oraz osobny plik **readme.md** .
+## W folderze **lab6** znajdują się pliki ze zrobionym 6 zadaniem oraz osobny plik **readme.md** .
 
