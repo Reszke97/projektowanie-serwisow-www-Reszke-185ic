@@ -78,3 +78,6 @@
 - asynchronousJSFunctions.js
 
 - asynchronousJS.html
+
+## W folderze **lab6** znajdują się pliki ze zrobionym 5 zadaniem oraz osobny plik **readme.md** .
+
