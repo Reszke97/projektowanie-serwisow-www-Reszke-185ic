@@ -3,7 +3,7 @@
 ## Tak przedstawia się gotowa strona:
 ![](1)
 
-## Tak przedstawia się mój główny komponent **App**
+## Tak przedstawia się mój główny komponent **App** :
 ### Najpierw wywoływany jest komponent funkcyjny a następnie komponent klasowy a w nim 2 pozostałe komponenty klasowe:
 ![](4)
 
@@ -33,6 +33,7 @@ Najpierw utworzyłem obiekt o nazwie BOOKS a w nim dane o książkach. Następni
 
 #### Tak przedstawia się mój komponent klasowy **ChildImg**, dodana tutaj została metoda **onClick** oraz dodany również konstruktor, który posiada obiekt **state** oraz należało przypisać funkcje **handleClick** do klasy. Informacje o tym jak to zrobić znalazłem tutaj:https://pl.reactjs.org/docs/handling-events.html . W metodzie render znowu jest zwracana funkcja **map** a jej parametrem wejściowym jest obiekt BOOKS z komponentu nadrzędnego. Tym razem wyświetlane są zdjęcia a przy wywołaniu funkcji **onClick** przekazywany jest id z obiektu **BOOKS** aby po naciśnięciu na ksiązke pojawiła się cena. Do tego wcześniej został dodany obiekt **state** przechowujący informacje o stanie i używany gdy zostanie wywołana funkcja **handleClick** a więc po naciśnięciu.
 ![](7)
+
 
 
 ## Tak wygląda strona gdy naciśniemy na zdjęcie(gdy state zostanie ustawiony na true to wyświetli się cena):
