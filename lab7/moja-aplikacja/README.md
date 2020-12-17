@@ -503,4 +503,102 @@ class Child extends React.Component{
 }
 ```
 
-## Reszta komponentów do wyświetlenia tej podstrony nie została zmieniona z laboratorium nr 6.
+## Klasa Parent bedąca komponentem nadrzędnym :
+```javascript
+class Parent extends React.Component{
+    render(){
+        const BOOKS = [
+            {
+                id:1,
+                tytul:"Arthas - Przebudzenie Króla Lisza",
+                autor:"Christie golden",
+                liczbaStron: 365,
+                gatunek: "Fantasy",
+                uniwersum: "Warcraft",
+                image: arthas,
+                cena: "40 pln",
+                data: "2009-04-21"
+    
+            },
+            {
+                id:2,
+                tytul:"Illidan",
+                autor:"William King",
+                liczbaStron: 414,
+                gatunek: "Fantasy",
+                uniwersum: "Warcraft",
+                image: illidan,
+                cena: "40 pln",
+                data: "2016-04-12"
+            },
+            {
+                id:3,
+                tytul:"Fale ciemności",
+                autor:"Aaron Rosenberg",
+                liczbaStron: 324,
+                gatunek: "Fantasy",
+                uniwersum: "Warcraft",
+                image: fale,
+                cena: "40 pln",
+                data: "2007-08-28"
+            }
+        ];
+        return(
+            <div className="imagesAndDescriptionWrapper">
+                 <div><Child books={BOOKS}></Child></div>
+                 <div><ChildImg images={BOOKS}></ChildImg></div>
+            </div>
+           
+        );
+    }
+}
+```
+
+## Klasa ChildIMG:
+```javascript
+class ChildImg extends React.Component{
+   constructor(props){
+        super(props)
+        this.state = {
+            isSet: false,
+            message: '',
+        }
+        this.handleClick = this.handleClick.bind(this)
+   } 
+
+    handleClick(key) {
+        this.setState(state => ({
+            message: this.props.images[0].cena,
+            isSet: !this.state.isSet
+        }));
+        if(this.state.isSet){
+            document.querySelectorAll(".spanCena")[key-1].style.display = "none"
+            document.querySelectorAll(".spanCena")[key-1].className = "spanCena text-warning"
+            //document.querySelectorAll(".bookdiv")[key-1].style.fontSize = "1.3rem"
+            document.querySelectorAll(".img")[key-1].style.width = "11.2rem"
+        }
+        else{
+            document.querySelectorAll(".spanCena")[key-1].style.display = "block"
+            document.querySelectorAll(".spanCena")[key-1].className = "spanCena text-warning"
+            //document.querySelectorAll(".bookdiv")[key-1].style.fontSize = "2rem"
+            document.querySelectorAll(".img")[key-1].style.width = "10rem"
+        } 
+      }
+
+    render(){
+        return(
+            <div>
+                {this.props.images.map((Book)=>{
+                        return(
+                            <div className="bookdivImg" key={Book.id}>
+                                <img className="img"src={Book.image} onClick={()=>this.handleClick(Book.id)} alt="logo" />
+                                <span className={"spanCena"} >{this.state.message} </span>
+                            </div>       
+                        )
+                    })
+                }
+            </div>
+        )
+    }
+}
+```
