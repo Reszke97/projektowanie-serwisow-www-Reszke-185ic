@@ -83,3 +83,7 @@
 
 ### Do folderu **lab6/moja-aplikacja** dodane zostały wszystkie potrzebne pliki Reacta
 
+## W folderze **lab7** znajdują się pliki ze zrobionym 7 zadaniem oraz osobny plik **readme.md** .
+
+### Do folderu **lab7/moja-aplikacja** dodane zostały wszystkie potrzebne pliki Reacta
+
