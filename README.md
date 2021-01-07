@@ -87,3 +87,5 @@
 
 ### Do folderu **lab7/moja-aplikacja** dodane zostały wszystkie potrzebne pliki Reacta
 
+## Do folderu **lab8** zostały dodane pliki z rozwiązanym laboratorium nr 8 oraz osobny plik **readme.md**
+
