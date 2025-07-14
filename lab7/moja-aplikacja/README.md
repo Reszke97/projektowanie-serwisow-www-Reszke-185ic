@@ -1,3 +1,7 @@
+# Lab 2 – Praca z elementami DOM + ćwiczenia.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Do wykonania laboratorium wykorzystałem gotową już stronę z laboratorium nr 6. Stworzyłem 3 podstrony.
 
 # Material UI oferuje programiście bardzo dużo możliwości. Przede wszystkim ułatwia nam pracę oraz w świetny sposób opisuje jak działają poszczególne komponenty.
