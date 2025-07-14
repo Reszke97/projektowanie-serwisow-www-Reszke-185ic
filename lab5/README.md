@@ -1,4 +1,4 @@
-# Lab 2 – Praca z elementami DOM + ćwiczenia.
+# Lab 5 – Async JS
 ## Źródło
 https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
 
