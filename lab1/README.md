@@ -1,4 +1,4 @@
-# Lab 1 – Praca z systemem kontroli wersji. Podstawy WWW.
+# Lab 1 – Praca z systemem kontroli wersji. Podstawy 'WWW'.
 ## Źródło
 https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
 
