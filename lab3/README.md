@@ -1,3 +1,7 @@
+# Lab 2 – Praca z elementami DOM + ćwiczenia.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Zrzut ekranu funckcji do peirwszych zadań:
 ![](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab3/ZrzutyStrony/1.3.PNG)
 
