@@ -25,8 +25,8 @@ Each lab includes source code, screenshots, and a description:
 - [🔗 Lab 4 – DOM interaction with JavaScript](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab4)
 - [🔗 Lab 5 – CSS transitions and animation](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab5)
 - [🔗 Lab 6 – Mobile-first design and nav menu](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab6/moja-aplikacja)
-- [🔗 Lab 7 – React component basics](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab7)
-- [🔗 Lab 8 – React props and state](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab8)
+- [🔗 Lab 7 – React component basics](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab7/moja-aplikacja)
+- [🔗 Lab 8 – React props and state](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/tree/main/lab8/my-app/lab8)
 
 ## 🧠 Notes
 
