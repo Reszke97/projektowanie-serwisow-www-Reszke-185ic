@@ -1,4 +1,4 @@
-# Lab 2 – Praca z elementami DOM + ćwiczenia.
+# Lab 6 – React - aplikacja nr 1.
 ## Źródło
 https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
 
