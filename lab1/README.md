@@ -1,3 +1,7 @@
+# Lab 1 – Praca z systemem kontroli wersji. Podstawy WWW.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 ## Strona Główna
 ![Strona Główna](https://github.com/Reszke97/projektowanie-serwisow-www-Reszke-185ic/blob/main/lab1/ZrzutyStrony/home.PNG)
 
