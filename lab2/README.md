@@ -1,3 +1,7 @@
+# Lab 1 – Praca z elementami DOM + ćwiczenia.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Lista użytych metod, operatorów javaScript oraz użytych funkcji do stylowania CSS:
 
 - innerText
