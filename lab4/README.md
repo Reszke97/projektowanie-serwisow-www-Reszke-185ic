@@ -1,3 +1,7 @@
+# Lab 2 – Praca z elementami DOM + ćwiczenia.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Została utworzona gra Snake. Ponieważ skrypt w dokumencie jest typu **"module"** strona musi być lokalnie zahostowana. Do zahostowania lokalnie strony użyłem visual studio code Live Server.
 
 # W skryptach znajdują się komentarze
