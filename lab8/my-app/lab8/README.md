@@ -1,3 +1,7 @@
+# Lab 8 – React - aplikacja nr 2 + analiza kodu źródłowego + git difftool.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Do wykonania laboratorium wykorzystałem następujący przykład:
 https://reactjsexample.com/the-easiest-way-to-slide-react-routes/ a w nim wykorzystałem drugi przykład: https://reactjsexample.com/a-react-custom-hook-for-creating-flexible-and-accessible-expand-collapse/. Krótko mówiąc na podstronie home znajduję się paragraf z tekstem z użyciem **react-collapsed** a przy zmianie stron wykonywane są animację, które pokaże później.
 
