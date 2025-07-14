@@ -1,4 +1,4 @@
-# Lab 1 – Praca z elementami DOM + ćwiczenia.
+# Lab 2 – Praca z elementami DOM + ćwiczenia.
 ## Źródło
 https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
 
