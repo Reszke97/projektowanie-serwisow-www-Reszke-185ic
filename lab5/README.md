@@ -1,3 +1,7 @@
+# Lab 2 – Praca z elementami DOM + ćwiczenia.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Do wykonania laboratoriów utworzyłem 2 nowe skrypty aby kod był czytelniejszy oraz stronę **asynchronousJS.html** . skrypt **asynchronousJSFunctions** to skrypt w którym są funkcje do pod zadań nr 1 i 2 a skrypy **asynchronousJS** korzysta z tych funkcji. Dodatkowo utowrzyłem plik **mojObiektJSON** w którym znajduję się mój obiek JSON. W kodzie znajdują się komentarze gdzie zaczyna się dane zadanie. Dla lepszej przejrzystości podaje zrzuty kodu poniżej:
 
 ## Wszystkie funkcje potrzebne do wykonania zadań:
