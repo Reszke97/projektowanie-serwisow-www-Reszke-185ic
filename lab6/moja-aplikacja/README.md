@@ -1,3 +1,7 @@
+# Lab 2 – Praca z elementami DOM + ćwiczenia.
+## Źródło
+https://zacniewski.gitlab.io/teaching/2020-serwisy-www/
+
 # Do wykonania laboratorium stworzyłem obiekt, w którym znajudują się informacje o książkach. Całe laboratorium wykonałem w pliku **App.js** . Stworzyłem 3 klasy(Klasę nadrzędną i 2 potomne). Na koniec dodałem kolor do teksu z **Bootstrapa** oraz własne style w pliku **App.css**. Jeśli chodzi o zainstalowanie Bootstrapa to posłużyłem się tym linkiem :https://create-react-app.dev/docs/adding-bootstrap/ .
 
 ## Tak przedstawia się gotowa strona:
